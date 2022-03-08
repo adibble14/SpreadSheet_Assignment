@@ -13,15 +13,23 @@ numerous operations without entering the same cell twice.
 You can create a spreadsheet from scrath or read from a .txt file. Additionally, you can save the spreadsheet to a .csv file.
 
 Data Structures used:
+
 Implemented a Graph data structure using two LinkedLists: dependsOn and feedsInto
+
   Every cell in the spreadsheet has these two LinkedLists that contain other cells in
   the spreadsheet
+  
       depeondsOn contains the cells that this cell relies on to calculate the value
+      
       feedsInto contains the cells that rely on this cell to calculate their values
+      
 Implemented a Binary Tree to calculate the expressions of each cell.
+
 Implemented a Stack to retrieve and parse the string formula into a calculable postfix
 expression.
+
 Implemented a Queue to be used in the topological sort algorithm
+
 Implemented an array to read a spreadsheet from a file and to handle the input, also
   implemented the spreadsheet as a two dimensional array of cells
   
